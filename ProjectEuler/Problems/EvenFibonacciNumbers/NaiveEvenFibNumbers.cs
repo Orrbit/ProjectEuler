@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BenchmarkDotNet.Attributes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,8 +7,10 @@ using System.Threading.Tasks;
 
 namespace ProjectEuler.Problems.EvenFibonacciNumbers
 {
-    public class EvenFibonacciNumbers : ISolvable
+    public class NaiveEvenFibNumbers : ISolvable
     {
+
+        [Benchmark]
         public int Solve()
         {
             var prev = 1;
