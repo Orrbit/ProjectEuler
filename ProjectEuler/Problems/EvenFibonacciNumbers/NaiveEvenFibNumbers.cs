@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProjectEuler.Problems.EvenFibonacciNumbers
 {
-    public class NaiveEvenFibNumbers : ISolvable
+    public class NaiveEvenFibNumbers
     {
 
         [Benchmark]

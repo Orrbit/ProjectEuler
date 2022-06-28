@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProjectEuler.Problems.EvenFibonacciNumbers
 {
-    public class ReducedIterationsEvenFibNumbers: ISolvable
+    public class ReducedIterationsEvenFibNumbers
     {
         /// <summary>
         /// This method makes use of the mathematical observation
